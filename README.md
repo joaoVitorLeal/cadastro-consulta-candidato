@@ -46,9 +46,5 @@ Além disso, configure as dependências do Maven para incluir o driver JDBC do b
 
 1. Clone o repositório para o seu ambiente local:
    ```bash
-   ## Configuração e Instalação
-
-1. Clone o repositório para o seu ambiente local:
-   ```bash
    git clone https://github.com/joaoVitorLeal/cadastro-consulta-candidato.git
 
