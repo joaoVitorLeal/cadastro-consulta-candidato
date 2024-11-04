@@ -44,6 +44,49 @@ Para rodar este projeto, você precisa ter instalado:
 
 Além disso, configure as dependências do Maven para incluir o driver JDBC do banco de dados que será utilizado. Certifique-se de configurar corretamente as informações de conexão para que o projeto funcione corretamente.
 
+## Instalando o JDK 17 e Configurando o Ambiente
+
+### Para Linux
+
+1. **Atualizar o sistema:**
+   Abra um terminal e execute:
+   ```bash
+   sudo apt update
+   sudo apt upgrade
+
+2. ** Instalar o OpenJDK 17:**
+   ```bash
+   sudo apt install openjdk-17-jdk
+
+3. **Verificar a instalação:**
+   ```bash
+   java --version
+
+4. **Configurando variáveis de ambiente:** Para definir a variável JAVA_HOME, adicione as seguintes linhas ao final do arquivo ~/.bashrc ou ~/.profile:
+   ```bash
+   export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+   export PATH=$PATH:$JAVA_HOME/bin
+   
+Depois execute:
+   ```bash
+   source ~/.bashrc
+```
+
+### Para Windows
+
+1. **Baixar o JDK 17:** Acesse o site oficial do OpenJDK [neste link](https://jdk.java.net/17/) e baixe o instalador do JDK 17 para Windows.
+
+2. **Instalar o JDK:** Execute o instalador e siga as instruções na tela. Por padrão, o JDK será instalado em `C:\Program Files\OpenJDK\jdk-17`.
+
+3. **Configurar variáveis de ambiente:**
+   - Clique com o botão direito em "Este PC" ou "Meu Computador" e selecione "Propriedades".
+   - Clique em "Configurações avançadas do sistema".
+   - Na aba "Avançado", clique em "Variáveis de Ambiente".
+   - Adicione uma nova variável de sistema chamada `JAVA_HOME` com o valor `C:\Program Files\OpenJDK\jdk-17`.
+   - Encontre a variável `Path` na lista de variáveis do sistema e clique em "Editar". Adicione uma nova entrada: `%JAVA_HOME%\bin`.
+
+
+
 1. Clone o repositório para o seu ambiente local:
    ```bash
    git clone https://github.com/joaoVitorLeal/cadastro-consulta-candidato.git
