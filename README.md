@@ -61,6 +61,7 @@ Além disso, configure as dependências do Maven para incluir o driver JDBC do b
 3. **Verificar a instalação:**
    ```bash
    java --version
+   ```
 
 4. **Configurando variáveis de ambiente:** Para definir a variável JAVA_HOME, adicione as seguintes linhas ao final do arquivo ~/.bashrc ou ~/.profile:
    ```bash
