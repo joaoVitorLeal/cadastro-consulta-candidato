@@ -53,10 +53,12 @@ Além disso, configure as dependências do Maven para incluir o driver JDBC do b
    ```bash
    sudo apt update
    sudo apt upgrade
+   ```
 
 2. ** Instalar o OpenJDK 17:**
    ```bash
    sudo apt install openjdk-17-jdk
+   ```
 
 3. **Verificar a instalação:**
    ```bash
@@ -67,6 +69,7 @@ Além disso, configure as dependências do Maven para incluir o driver JDBC do b
    ```bash
    export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
    export PATH=$PATH:$JAVA_HOME/bin
+   ```
    
 Depois execute:
    ```bash
