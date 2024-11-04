@@ -44,4 +44,11 @@ Para rodar este projeto, você precisa ter instalado:
 
 Além disso, configure as dependências do Maven para incluir o driver JDBC do banco de dados que será utilizado. Certifique-se de configurar corretamente as informações de conexão para que o projeto funcione corretamente.
 
+1. Clone o repositório para o seu ambiente local:
+   ```bash
+   ## Configuração e Instalação
+
+1. Clone o repositório para o seu ambiente local:
+   ```bash
+   git clone https://github.com/joaoVitorLeal/cadastro-consulta-candidato.git
 
