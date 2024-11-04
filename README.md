@@ -37,7 +37,7 @@ Sistema de cadastro e consulta de candidatos para eleições. Este projeto tem c
 
 Para rodar este projeto, você precisa ter instalado:
 
-- **Java 17** ou superior
+- **Java 17** (versão que foi utilizada no projeto. Podendo ser utilizado em versões superiores, porém requer configuração das dependências).
 - **Apache Maven** para gerenciar as dependências do projeto
 - **MySQL** ou outro banco de dados compatível para armazenar os dados
 - **NetBeans IDE** (opcional, mas recomendado)
